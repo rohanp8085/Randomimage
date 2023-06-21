@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.container{ padding: 20px;
+    background-image: url(https://images.pexels.com/photos/4128029/pexels-photo-4128029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.box{ margin: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(17, 17, 16);
+    /* border: 1px solid red; */
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+
+}
+.box:hover{
+    height: 230px;
+    width: 220px;
+}
+.container h1{ 
+    margin-bottom: 400px;
+}
+.box:first-child{
+    background-image: url(https://source.unsplash.com/random/900×700/?fruit);
+}
+.box:nth-child(2){ 
+    background-image: url(https://source.unsplash.com/random/900×700/?nature);
+
+}
+.box:nth-child(3){
+    background-image: url(https://source.unsplash.com/random/900×700/?leptop);
+}
+.box:nth-child(4){
+    background-image: url(https://source.unsplash.com/random/900×700/?car);
+}
+.box:nth-child(5){
+    background-image: url(https://source.unsplash.com/random/900×700/?bikes);
+}
+.box:nth-child(6){
+    background-image: url(https://source.unsplash.com/random/900×700/?camera);
+}
+.box:nth-child(7){
+    background-image: url(https://source.unsplash.com/random/900×700/?phone);
+}
+.box:nth-child(8){
+    background-image: url(https://source.unsplash.com/random/900×700/?cat);
+}
+.box:nth-child(9){
+    background-image: url(https://source.unsplash.com/random/900×700/?gate);
+}
+
+.box:last-child{
+    background-image: url(https://source.unsplash.com/random/900×700/?tv);
+}
